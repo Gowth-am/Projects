@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(28, 29, 29);
+}
+
+.clock {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  border: solid #e3ea0c;
+  position: absolute;
+}
+
+#seconds {
+  position: absolute;
+  height: 130px;
+  width: 2px;
+  background-color: rgb(83, 244, 236);
+  right: 149px;
+  bottom: 149px;
+  transform-origin: 0% 100%;
+}
+#minutes {
+  position: absolute;
+  height: 130px;
+  width: 4px;
+  background-color: rgb(243, 82, 162);
+  right: 148px;
+  bottom: 148px;
+  opacity: 70%;
+  transform-origin: 0% 100%;
+}
+#hours {
+  position: absolute;
+  height: 100px;
+  width: 6px;
+  background-color: rgb(254, 38, 0);
+  right: 147px;
+  bottom: 147px;
+  transform-origin: 0% 100%;
+}
+#center {
+  right: 147px;
+  bottom: 147px;
+  background-color: white;
+}
